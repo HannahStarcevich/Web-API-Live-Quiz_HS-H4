@@ -1,0 +1,88 @@
+body {
+    background: tan;
+    color: rgb(24, 90, 24)
+}
+
+.container {
+    width: 75%;
+    padding: 2.5%;
+}
+
+.home-title,
+#high-score {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.home-text {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16pt;
+}
+
+.answer {
+    margin: 5%;
+}
+
+#score-box {
+    color: white;
+    text-align: center;
+    margin-right: 2.5%;
+    float: right;
+    font-size: 20pt;
+}
+
+#Joe-photo {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-container {
+    text-align: center;
+}
+
+#startTheQuiz,
+#submit-btn {
+    margin-top: 2%;
+    width: 20%;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 16pt;
+}
+
+#question {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.answer,
+#timer {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18pt;
+    border: solid lightgrey;
+    padding: 1%;
+}
+
+.answer:hover {
+    background: lightgrey;
+}
+
+#high-score-container {
+    width: 75%;
+    padding: 2.5%;
+    text-align: center;
+}
+
+#name {
+    width: 40%;
+    height: auto;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16pt;
+}
+
+#display-answer {
+    font-family: 'Patrick Hand', cursive;
+    color: fuchsia;
+    font-size: 18pt;
+    padding: 1%;
+}
