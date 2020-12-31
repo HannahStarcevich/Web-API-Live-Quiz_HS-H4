@@ -78,6 +78,8 @@ body {
     width: 75%;
     padding: 2.5%;
     text-align: center;
+    display: none;
+    margin: 0 auto
 }
 
 #name {
@@ -92,4 +94,12 @@ body {
     color: fuchsia;
     font-size: 18pt;
     padding: 1%;
+}
+
+#question-container {
+    display: none;
+}
+
+#score-box {
+    display: none;
 }

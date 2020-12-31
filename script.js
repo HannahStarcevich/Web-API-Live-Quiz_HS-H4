@@ -81,9 +81,9 @@ var quizQuestions = [{
 ];
 
 // default with the questions hidden
-questionContainer.style.display = "none";
-timerDisplay.style.display = "none";
-highScoreContainer.style.display = "none";
+// questionContainer.style.display = "none";
+// timerDisplay.style.display = "none";
+// highScoreContainer.style.display = "none";
 
 // user clicks start, welcome message disappears, the question container appears, timer starts, start question function
 startButton.addEventListener("click", function () {
@@ -127,6 +127,7 @@ answers.forEach(function (answerEl) {
         } else {
             rightOrWrong.textContent = ("Correct!")
         }
+        this.style.background = "transparent"
         // switch to the next question, then end timer after the final question
         counter++;
         if (counter <= 5) {
